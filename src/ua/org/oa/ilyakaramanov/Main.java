@@ -1,5 +1,9 @@
 package ua.org.oa.ilyakaramanov;
 
+/*
+Создаю массив, добавляю в него слов.
+Запускаю методы из класса DynamicStringList
+ */
 
 public class Main {
 

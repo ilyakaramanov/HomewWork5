@@ -3,16 +3,21 @@ package ua.org.oa.ilyakaramanov;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+Переопределяю методы интерфейса SimpleList
+ */
+
 public class DynamicStringList implements SimpleList {
 
     private int lgth;
     List<String> list = new ArrayList<>(lgth);
 
-    DynamicStringList() {
+
+    DynamicStringList() {           //конструктор
         list = null;
     }
 
-    DynamicStringList(int lgth) {
+    DynamicStringList(int lgth) {           //конструктор
         this.list = list;
     }
 
